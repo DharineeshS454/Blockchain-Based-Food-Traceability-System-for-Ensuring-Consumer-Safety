@@ -1,0 +1,3 @@
+const contract = await ethers.getContractAt("FoodTrace", "0x0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const result = await contract.getBatchDetails(0); // replace 0 with actual batchId
+console.log(result);

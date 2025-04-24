@@ -1,0 +1,3 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Rishav1git/FoodTrace_Blockchain.git
